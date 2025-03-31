@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jgvQAn28Pa4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\SnappyQRServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joffr\\.nuget\\packages\\ical.net\\4.3.1\\ical.net.4.3.1.nupkg.sha512",
+    "C:\\Users\\joffr\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\joffr\\.nuget\\packages\\nodatime\\3.2.0\\nodatime.3.2.0.nupkg.sha512",
+    "C:\\Users\\joffr\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
+    "C:\\Users\\joffr\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
