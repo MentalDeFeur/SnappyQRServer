@@ -1,1 +1,125 @@
-./bin/Debug/net8.0-windows
+# Fichiers binaires de build
+bin/
+obj/
+
+# Fichiers de configuration utilisateur
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Fichiers de log
+*.log
+
+# Fichiers de débogage
+*.pdb
+
+# Fichiers de déploiement
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Fichiers de package NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Fichiers de cache
+.vscode/
+.idea/
+.ionide/
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.idea/
+*.sln.ide
+
+# Fichiers de configuration de l'éditeur
+*.vs/
+.vscode/
+.idea/
+
+# Fichiers de test
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Fichiers de configuration de l'application
+appsettings.json
+appsettings.*.json
+
+# Fichiers de configuration de l'environnement
+.env
+.env.*
+
+# Fichiers de configuration de Docker
+docker-compose.yml
+Dockerfile
+
+# Fichiers de configuration de Kubernetes
+*.yaml
+*.yml
+
+# Fichiers de configuration de Terraform
+*.tf
+*.tfstate
+*.tfstate.backup
+
+# Fichiers de configuration de Helm
+*.tpl
+*.yaml
+*.yml
+
+# Fichiers de configuration de Ansible
+*.yml
+*.yaml
+
+# Fichiers de configuration de Chef
+*.rb
+
+# Fichiers de configuration de Puppet
+*.pp
+
+# Fichiers de configuration de SaltStack
+*.sls
+
+# Fichiers de configuration de Vagrant
+Vagrantfile
+
+# Fichiers de configuration de Packer
+*.json
+
+# Fichiers de configuration de CloudFormation
+*.yaml
+*.yml
+
+# Fichiers de configuration de SAM
+*.yaml
+*.yml
+
+# Fichiers de configuration de Serverless
+*.yaml
+*.yml
+
+# Fichiers de configuration de Pulumi
+*.ts
+*.js
+*.py
+*.go
+*.cs
+*.fs
+*.vb
+*.ps1
+*.sh
+*.bash
+*.zsh
+*.fish
+*.ksh
+*.csh
+*.tcsh
+*.pl
+*.pm
+*.t
+*.pod
+*.psgi
