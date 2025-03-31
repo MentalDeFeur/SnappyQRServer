@@ -19,3 +19,4 @@ C:\Users\joffr\source\repos\SnappyQRServer\obj\Debug\net8.0-windows\refint\Snapp
 C:\Users\joffr\source\repos\SnappyQRServer\obj\Debug\net8.0-windows\SnappyQRServer.pdb
 C:\Users\joffr\source\repos\SnappyQRServer\obj\Debug\net8.0-windows\SnappyQRServer.genruntimeconfig.cache
 C:\Users\joffr\source\repos\SnappyQRServer\obj\Debug\net8.0-windows\ref\SnappyQRServer.dll
+C:\Users\joffr\source\repos\SnappyQRServer\obj\Debug\net8.0-windows\SnappyQRServer.sourcelink.json
