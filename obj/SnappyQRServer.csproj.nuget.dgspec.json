@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\SnappyQRServer.csproj": {}
+    "C:\\Users\\joffr\\Documents\\GitHub\\SnappyQRServer\\SnappyQRServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\SnappyQRServer.csproj": {
+    "C:\\Users\\joffr\\Documents\\GitHub\\SnappyQRServer\\SnappyQRServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\SnappyQRServer.csproj",
+        "projectUniqueName": "C:\\Users\\joffr\\Documents\\GitHub\\SnappyQRServer\\SnappyQRServer.csproj",
         "projectName": "SnappyQRServer",
-        "projectPath": "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\SnappyQRServer.csproj",
+        "projectPath": "C:\\Users\\joffr\\Documents\\GitHub\\SnappyQRServer\\SnappyQRServer.csproj",
         "packagesPath": "C:\\Users\\joffr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joffr\\source\\repos\\SnappyQRServer\\obj\\",
+        "outputPath": "C:\\Users\\joffr\\Documents\\GitHub\\SnappyQRServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

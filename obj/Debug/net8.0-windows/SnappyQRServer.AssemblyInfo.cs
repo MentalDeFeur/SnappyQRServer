@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnappyQRServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b409707115470bf28ab1024ed1c075bb9c452153")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e8c3ee01d9508bcbe753fd57906c2932b944030")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnappyQRServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnappyQRServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

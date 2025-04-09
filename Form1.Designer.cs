@@ -71,6 +71,7 @@
             dateTimePickerStart.Name = "dateTimePickerStart";
             dateTimePickerStart.Size = new Size(297, 27);
             dateTimePickerStart.TabIndex = 3;
+            dateTimePickerStart.ValueChanged += dateTimePickerStart_ValueChanged;
             // 
             // dateTimePickerEnd
             // 
@@ -79,6 +80,7 @@
             dateTimePickerEnd.Name = "dateTimePickerEnd";
             dateTimePickerEnd.Size = new Size(297, 27);
             dateTimePickerEnd.TabIndex = 4;
+            dateTimePickerEnd.ValueChanged += dateTimePickerEnd_ValueChanged;
             // 
             // button1
             // 

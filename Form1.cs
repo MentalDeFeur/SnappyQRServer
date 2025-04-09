@@ -3,6 +3,7 @@ using static QRCoder.PayloadGenerator;
 using Ical.Net.DataTypes;
 using Ical.Net.Serialization;
 using Ical.Net.CalendarComponents;
+using System.Runtime.CompilerServices;
 
 
 
@@ -10,6 +11,11 @@ namespace SnappyQRServer
 {
     public partial class Form1 : Form
     {
+
+        private Ical.Net.CalendarComponents.CalendarEvent calendarEvent;
+        private DateTime start;
+        private DateTime end;
+
         public Form1()
         {
             InitializeComponent();
@@ -22,23 +28,23 @@ namespace SnappyQRServer
                 QRCodeData qrCodeData = qrGenerator.CreateQrCode(icalContent, QRCodeGenerator.ECCLevel.Q);
                 using (QRCode qrCode = new QRCode(qrCodeData))
                 {
-                    int qrCodeSize = Math.Min(pictureBox1.Width/4, pictureBox1.Height/4);
-                    Bitmap qrCodeImage = qrCode.GetGraphic(qrCodeSize / 20); 
+                    int qrCodeSize = Math.Min(pictureBox1.Width / 4, pictureBox1.Height / 4);
+                    Bitmap qrCodeImage = qrCode.GetGraphic(qrCodeSize / 20);
                     pictureBox1.Image = qrCodeImage;
                 }
             }
         }
 
-        private string CreateICalEvent(string summary, string location, DateTime start, DateTime end)
+        private string CreateICalEvent(string summary, string location, DateTime startDT, DateTime endDT)
         {
             var calendar = new Ical.Net.Calendar();
 
-            var calendarEvent = new Ical.Net.CalendarComponents.CalendarEvent
+            calendarEvent = new Ical.Net.CalendarComponents.CalendarEvent
             {
                 Summary = summary,
                 Location = location,
-                Start = new CalDateTime(start.ToString("yyyy-MM-dd")),
-                End = new CalDateTime(end.ToString("yyyy-MM-dd"))
+                Start = new CalDateTime(startDT),
+                End = new CalDateTime(endDT),
             };
 
 
@@ -52,11 +58,19 @@ namespace SnappyQRServer
         {
             string summary = textBoxSummary.Text;
             string location = textBoxLocation.Text;
-            DateTime start = dateTimePickerStart.Value;
-            DateTime end = dateTimePickerEnd.Value;
 
             string icalContent = CreateICalEvent(summary, location, start, end);
             GenerateQRCode(icalContent);
+        }
+
+        private void dateTimePickerStart_ValueChanged(object sender, EventArgs e)
+        {
+            start = dateTimePickerStart.Value;
+        }
+
+        private void dateTimePickerEnd_ValueChanged(object sender, EventArgs e)
+        {
+            end = dateTimePickerEnd.Value;
         }
     }
 }
